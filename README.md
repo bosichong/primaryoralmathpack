@@ -84,4 +84,6 @@ console.log(oralMathProblems);
 小学数学口算题 | Primary School Mathematics
 https://github.com/bosichong/PrimarySchoolMathematics
 
+[在线演示地址](https://www.suiyan.cc/demo/psm/)
+
 该项目是一个基于PrimaryOralMathPack的小学数学口算题生成器，旨在帮助学生和家长创建个性化的口算练习材料。它提供了一个交互式的Web应用程序，允许用户选择不同的口算题类型（加法、减法、乘法、除法）、运算步数、题目数量、是否求结果或运算项、是否包含括号以及数值范围和运算符列表等参数，生成符合要求的口算题数组。
