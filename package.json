@@ -1,6 +1,6 @@
 {
   "name": "primaryoralmathpack",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "pom.js",
   "repository": {
     "type": "git",
