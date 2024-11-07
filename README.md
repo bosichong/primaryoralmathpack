@@ -21,7 +21,7 @@ const { FormulasGenerator } = require('PrimaryOralMathPack');
 
 直接引用，默认参数即可生成10道100以内加减法口算题，默认参数如下：
 
-```
+```javascript
 const { FormulasGenerator } = require('PrimaryOralMathPack');
 const f = new FormulasGenerator();
 console.log(f.generate());
