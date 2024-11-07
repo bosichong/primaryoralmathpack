@@ -14,7 +14,7 @@ npm install PrimaryOralMathPack
 ### 2. 导入
 在你的JavaScript项目中，可以通过以下方式导入：
 ```javascript
-const FormulasGenerator = require('PrimaryOralMathPack');
+const { FormulasGenerator } = require('PrimaryOralMathPack');
 ```
 
 ### 3. 使用示例
@@ -22,7 +22,7 @@ const FormulasGenerator = require('PrimaryOralMathPack');
 直接引用，默认参数即可生成10道100以内加减法口算题，默认参数如下：
 
 ```
-const { FormulasGenerator } = require('./pom');
+const { FormulasGenerator } = require('PrimaryOralMathPack');
 const f = new FormulasGenerator();
 console.log(f.generate());
 ```
