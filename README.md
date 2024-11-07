@@ -18,6 +18,25 @@ const FormulasGenerator = require('PrimaryOralMathPack');
 ```
 
 ### 3. 使用示例
+
+直接引用，默认参数即可生成10道100以内加减法口算题，默认参数如下：
+
+```
+const { FormulasGenerator } = require('./pom');
+const f = new FormulasGenerator();
+console.log(f.generate());
+```
+打印结果：
+```
+[
+  '74-39=', '52-25=',
+  '32+66=', '50-3=', 
+  '54-19=', '67-13=',
+  '47-32=', '74-52=',
+  '79-35=', '62-22=' 
+]
+```
+
 以下是一个使用PrimaryOralMathPack生成口算题的示例：
 ```javascript
 // 创建一个FormulasGenerator实例
